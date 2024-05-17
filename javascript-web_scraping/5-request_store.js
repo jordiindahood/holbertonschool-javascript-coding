@@ -1,6 +1,5 @@
 #!/usr/bin/node
 
-// Import required modules
 const fs = require('fs');
 const request = require('request');
 
