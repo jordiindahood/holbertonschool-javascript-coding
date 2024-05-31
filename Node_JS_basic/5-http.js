@@ -1,3 +1,4 @@
+/* eslint-disable jest/require-hook */
 // Importing necessary modules
 const http = require('http'); // Module for creating HTTP servers
 const fs = require('fs').promises; // Promise-based filesystem module
@@ -77,7 +78,6 @@ const app = http.createServer((req, res) => {
 });
 
 // Starting the server on port 1245
-// eslint-disable-next-line jest/require-hook
 app.listen(1245);
 
 // Exporting the app module for possible use elsewhere
